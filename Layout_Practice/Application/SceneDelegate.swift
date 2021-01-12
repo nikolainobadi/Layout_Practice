@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         
-        let vc = Home_VC()
+        let vc = LabelPractice_VC()
         let navVC = UINavigationController(rootViewController: vc)
         
         window?.rootViewController = navVC
