@@ -68,13 +68,13 @@
 		E81647AA25AE36EB007A8442 /* Layout_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				E8C0360425AE3DF000639638 /* VC_Extensions */,
 				E81647AF25AE36EB007A8442 /* LabelPractice_VC.swift */,
 				E8C035FD25AE3D2900639638 /* TextFieldPractice_VC.swift */,
 				E8C0360125AE3D5300639638 /* ButtonPractice_VC.swift */,
 				E81647D125AE3999007A8442 /* Application */,
 				E81647D225AE39B3007A8442 /* Resources */,
 				E81647D725AE3A08007A8442 /* CoreAdditions */,
+				E8C0360425AE3DF000639638 /* VC_Extensions */,
 				E81647C525AE390C007A8442 /* Designs */,
 			);
 			path = Layout_Practice;
