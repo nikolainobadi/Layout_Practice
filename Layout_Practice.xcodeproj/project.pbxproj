@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		E81647AC25AE36EB007A8442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647AB25AE36EB007A8442 /* AppDelegate.swift */; };
 		E81647AE25AE36EB007A8442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647AD25AE36EB007A8442 /* SceneDelegate.swift */; };
-		E81647B025AE36EB007A8442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647AF25AE36EB007A8442 /* ViewController.swift */; };
-		E81647B325AE36EB007A8442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81647B125AE36EB007A8442 /* Main.storyboard */; };
+		E81647B025AE36EB007A8442 /* Home_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647AF25AE36EB007A8442 /* Home_VC.swift */; };
 		E81647B525AE36EB007A8442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81647B425AE36EB007A8442 /* Assets.xcassets */; };
 		E81647B825AE36EB007A8442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81647B625AE36EB007A8442 /* LaunchScreen.storyboard */; };
+		E81647C325AE38E5007A8442 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647C225AE38E5007A8442 /* UIExtensions.swift */; };
+		E81647C725AE3914007A8442 /* BoringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647C625AE3914007A8442 /* BoringLabel.swift */; };
+		E81647CB25AE391E007A8442 /* ShadowField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647CA25AE391E007A8442 /* ShadowField.swift */; };
+		E81647CE25AE3925007A8442 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81647CD25AE3925007A8442 /* ShadowButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E81647A825AE36EB007A8442 /* Layout_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81647AB25AE36EB007A8442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E81647AD25AE36EB007A8442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E81647AF25AE36EB007A8442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E81647B225AE36EB007A8442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E81647AF25AE36EB007A8442 /* Home_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_VC.swift; sourceTree = "<group>"; };
 		E81647B425AE36EB007A8442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E81647B725AE36EB007A8442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E81647B925AE36EB007A8442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81647C225AE38E5007A8442 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		E81647C625AE3914007A8442 /* BoringLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringLabel.swift; sourceTree = "<group>"; };
+		E81647CA25AE391E007A8442 /* ShadowField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowField.swift; sourceTree = "<group>"; };
+		E81647CD25AE3925007A8442 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		E81647AA25AE36EB007A8442 /* Layout_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				E81647AB25AE36EB007A8442 /* AppDelegate.swift */,
-				E81647AD25AE36EB007A8442 /* SceneDelegate.swift */,
-				E81647AF25AE36EB007A8442 /* ViewController.swift */,
-				E81647B125AE36EB007A8442 /* Main.storyboard */,
-				E81647B425AE36EB007A8442 /* Assets.xcassets */,
-				E81647B625AE36EB007A8442 /* LaunchScreen.storyboard */,
-				E81647B925AE36EB007A8442 /* Info.plist */,
+				E81647AF25AE36EB007A8442 /* Home_VC.swift */,
+				E81647D125AE3999007A8442 /* Application */,
+				E81647D225AE39B3007A8442 /* Resources */,
+				E81647D725AE3A08007A8442 /* CoreAdditions */,
+				E81647C525AE390C007A8442 /* Designs */,
 			);
 			path = Layout_Practice;
+			sourceTree = "<group>";
+		};
+		E81647C525AE390C007A8442 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				E81647C625AE3914007A8442 /* BoringLabel.swift */,
+				E81647CA25AE391E007A8442 /* ShadowField.swift */,
+				E81647CD25AE3925007A8442 /* ShadowButton.swift */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		E81647D125AE3999007A8442 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E81647AB25AE36EB007A8442 /* AppDelegate.swift */,
+				E81647AD25AE36EB007A8442 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E81647D225AE39B3007A8442 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E81647B425AE36EB007A8442 /* Assets.xcassets */,
+				E81647B925AE36EB007A8442 /* Info.plist */,
+				E81647B625AE36EB007A8442 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E81647D725AE3A08007A8442 /* CoreAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				E81647C225AE38E5007A8442 /* UIExtensions.swift */,
+			);
+			path = CoreAdditions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +167,6 @@
 			files = (
 				E81647B825AE36EB007A8442 /* LaunchScreen.storyboard in Resources */,
 				E81647B525AE36EB007A8442 /* Assets.xcassets in Resources */,
-				E81647B325AE36EB007A8442 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +177,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81647B025AE36EB007A8442 /* ViewController.swift in Sources */,
+				E81647B025AE36EB007A8442 /* Home_VC.swift in Sources */,
+				E81647C725AE3914007A8442 /* BoringLabel.swift in Sources */,
+				E81647CB25AE391E007A8442 /* ShadowField.swift in Sources */,
 				E81647AC25AE36EB007A8442 /* AppDelegate.swift in Sources */,
 				E81647AE25AE36EB007A8442 /* SceneDelegate.swift in Sources */,
+				E81647CE25AE3925007A8442 /* ShadowButton.swift in Sources */,
+				E81647C325AE38E5007A8442 /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E81647B125AE36EB007A8442 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E81647B225AE36EB007A8442 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E81647B625AE36EB007A8442 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R8SJ24LQF3;
-				INFOPLIST_FILE = Layout_Practice/Info.plist;
+				INFOPLIST_FILE = Layout_Practice/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nobadiCares.Layout-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R8SJ24LQF3;
-				INFOPLIST_FILE = Layout_Practice/Info.plist;
+				INFOPLIST_FILE = Layout_Practice/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nobadiCares.Layout-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
