@@ -28,7 +28,7 @@ class LabelPractice_VC: UIViewController {
         
         // add text to label
         
-        // make textAlignment
+        // make textAlignment right
         
         // make background color purple
         
@@ -42,7 +42,11 @@ class LabelPractice_VC: UIViewController {
     // MARK: - DIFFICULT View
     
     // create difficultLabel: BoringLabel
-    
+    // add text to label
+    // chose colors for:
+    //                  backgroundColor
+    //                  textColor
+    // BONUS: on label, set numberOfLines equal to 0
     
     
     // MARK: - DISPLAY SETUP
